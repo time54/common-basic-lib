@@ -1,8 +1,3 @@
-/*
- * @Author: taojinchao
- * @Date: 2022-08-22 20:40:19
- * @LastEditors: taojinchao
- * @LastEditTime: 2022-08-22 20:41:50
- * @Description: 入口文件
- */
-export * from "./isMobile";
+export default function isMobile(v: any): boolean {
+  return /^1[0-9][0-9]\d{8}$/.test(v);
+}
