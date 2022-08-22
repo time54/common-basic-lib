@@ -1,0 +1,24 @@
+{
+  "name": "common-basic-lib",
+  "version": "1.0.0",
+  "description": "公共基础库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/time54/common-basic-lib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/time54/common-basic-lib/issues"
+  },
+  "homepage": "https://github.com/time54/common-basic-lib#readme",
+  "devDependencies": {
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  }
+}
