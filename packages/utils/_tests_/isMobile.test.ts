@@ -1,4 +1,4 @@
-import isMobile from "../src/isMobile";
+import { isMobile } from "../src/isMobile";
 
 test("15919316514 正确返回true", () => {
   expect(isMobile("15919316514")).toBe(true);
